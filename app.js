@@ -5,7 +5,7 @@ const app=express();
 //Middle wares 
 app.use(express.json());
 
-mongoose.connect("mongodb://localhost:27017/expenses").then(() =>{
+mongoose.connect("mongodb+srv://yaswanthvisa:.8YsRNwRRSDCsg_@cluster0.xqjkk.mongodb.net/expenses").then(() =>{
     console.log("connected to database...");
 });
 
