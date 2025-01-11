@@ -1,5 +1,7 @@
 var  express = require('express')
 const mongoose=require('mongoose');
+const cors = require('cors');
+
 
 const app=express();
 //Middle wares 
